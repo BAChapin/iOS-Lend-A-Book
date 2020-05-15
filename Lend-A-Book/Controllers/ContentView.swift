@@ -9,8 +9,14 @@
 import SwiftUI
 
 struct ContentView: View {
+    
     var body: some View {
-        Text("Hello World")
+        NavigationView {
+            Text("Hello World")
+                .navigationBarTitle("Lend-A-Book", displayMode: .inline)
+                .navigationBarColor(.blue)
+                .navigationBarTextColor(.white)
+        }
     }
 }
 

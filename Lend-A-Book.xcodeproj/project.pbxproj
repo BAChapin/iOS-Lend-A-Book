@@ -3,13 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		6B6AC098E28FD479999E1822 /* Pods_Lend_A_BookTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD1BA72C5BFE398D0DB381BE /* Pods_Lend_A_BookTests.framework */; };
 		EDBC87A89CCB06916B4C39CF /* Pods_Lend_A_Book.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6F4F1198B73F1A62EE8A11D /* Pods_Lend_A_Book.framework */; };
 		FE1FEB6F246E1A59007876AC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FE1FEB6E246E1A59007876AC /* GoogleService-Info.plist */; };
+		FE1FEB77246E2C09007876AC /* NavigationBarBackgroundColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1FEB76246E2C09007876AC /* NavigationBarBackgroundColor.swift */; };
+		FE1FEB79246E37DC007876AC /* NavigationBarTextModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1FEB78246E37DC007876AC /* NavigationBarTextModifier.swift */; };
 		FEAA451523332DA600511480 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAA451423332DA600511480 /* AppDelegate.swift */; };
 		FEAA451723332DA600511480 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAA451623332DA600511480 /* SceneDelegate.swift */; };
 		FEAA451923332DA600511480 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAA451823332DA600511480 /* ContentView.swift */; };
@@ -37,9 +39,11 @@
 		DBEC6262A7FC08BA7840858B /* Pods-Lend-A-BookTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lend-A-BookTests.debug.xcconfig"; path = "Target Support Files/Pods-Lend-A-BookTests/Pods-Lend-A-BookTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F6F4F1198B73F1A62EE8A11D /* Pods_Lend_A_Book.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lend_A_Book.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE1FEB6E246E1A59007876AC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FE1FEB76246E2C09007876AC /* NavigationBarBackgroundColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarBackgroundColor.swift; sourceTree = "<group>"; };
+		FE1FEB78246E37DC007876AC /* NavigationBarTextModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarTextModifier.swift; sourceTree = "<group>"; };
 		FEAA451123332DA600511480 /* Lend-A-Book.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lend-A-Book.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FEAA451423332DA600511480 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FEAA451623332DA600511480 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FEAA451423332DA600511480 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "Lend-A-Book/AppDelegate.swift"; sourceTree = SOURCE_ROOT; };
+		FEAA451623332DA600511480 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = "Lend-A-Book/SceneDelegate.swift"; sourceTree = SOURCE_ROOT; };
 		FEAA451823332DA600511480 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FEAA451A23332DA700511480 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FEAA451D23332DA700511480 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -78,7 +82,6 @@
 				DBEC6262A7FC08BA7840858B /* Pods-Lend-A-BookTests.debug.xcconfig */,
 				7240CBEA4535E18FDD2964B1 /* Pods-Lend-A-BookTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -89,6 +92,45 @@
 				AD1BA72C5BFE398D0DB381BE /* Pods_Lend_A_BookTests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE1FEB70246E2A6D007876AC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FE1FEB71246E2A78007876AC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FE1FEB72246E2A7E007876AC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FE1FEB75246E2B7A007876AC /* Modifiers */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FE1FEB73246E2A8A007876AC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FEAA451823332DA600511480 /* ContentView.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FE1FEB75246E2B7A007876AC /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				FE1FEB76246E2C09007876AC /* NavigationBarBackgroundColor.swift */,
+				FE1FEB78246E37DC007876AC /* NavigationBarTextModifier.swift */,
+			);
+			path = Modifiers;
 			sourceTree = "<group>";
 		};
 		FEAA450823332DA500511480 = {
@@ -114,9 +156,12 @@
 		FEAA451323332DA600511480 /* Lend-A-Book */ = {
 			isa = PBXGroup;
 			children = (
+				FE1FEB70246E2A6D007876AC /* Extensions */,
+				FE1FEB71246E2A78007876AC /* Model */,
+				FE1FEB72246E2A7E007876AC /* Views */,
+				FE1FEB73246E2A8A007876AC /* Controllers */,
 				FEAA451423332DA600511480 /* AppDelegate.swift */,
 				FEAA451623332DA600511480 /* SceneDelegate.swift */,
-				FEAA451823332DA600511480 /* ContentView.swift */,
 				FEAA451A23332DA700511480 /* Assets.xcassets */,
 				FEAA451F23332DA700511480 /* LaunchScreen.storyboard */,
 				FEAA452223332DA700511480 /* Info.plist */,
@@ -315,6 +360,8 @@
 				FEAA451523332DA600511480 /* AppDelegate.swift in Sources */,
 				FEAA451723332DA600511480 /* SceneDelegate.swift in Sources */,
 				FEAA451923332DA600511480 /* ContentView.swift in Sources */,
+				FE1FEB77246E2C09007876AC /* NavigationBarBackgroundColor.swift in Sources */,
+				FE1FEB79246E37DC007876AC /* NavigationBarTextModifier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
