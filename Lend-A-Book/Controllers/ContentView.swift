@@ -10,9 +10,13 @@ import SwiftUI
 
 struct ContentView: View {
     
+    @State var nextScreen: Bool = false
+    
     var body: some View {
         NavigationView {
-            Text("Hello World")
+            
+            Text("Hello World!")
+            
                 .navigationBarTitle("Lend-A-Book", displayMode: .inline)
                 .navigationBarColor(.blue)
                 .navigationBarTextColor(.white)
