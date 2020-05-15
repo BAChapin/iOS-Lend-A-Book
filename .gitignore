@@ -1,6 +1,15 @@
 # Created by https://www.gitignore.io/api/xcode,swift,cocoapods
 # Edit at https://www.gitignore.io/?templates=xcode,swift,cocoapods
 
+### Firebase ###
+.idea
+**/node_modules/*
+**/.firebaserc
+
+### Firebase Patch ###
+.runtimeconfig.json
+.firebase/
+
 ### Swift ###
 # Xcode
 #

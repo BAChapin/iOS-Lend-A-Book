@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B6AC098E28FD479999E1822 /* Pods_Lend_A_BookTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD1BA72C5BFE398D0DB381BE /* Pods_Lend_A_BookTests.framework */; };
+		EDBC87A89CCB06916B4C39CF /* Pods_Lend_A_Book.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6F4F1198B73F1A62EE8A11D /* Pods_Lend_A_Book.framework */; };
+		FE1FEB6F246E1A59007876AC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FE1FEB6E246E1A59007876AC /* GoogleService-Info.plist */; };
 		FEAA451523332DA600511480 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAA451423332DA600511480 /* AppDelegate.swift */; };
 		FEAA451723332DA600511480 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAA451623332DA600511480 /* SceneDelegate.swift */; };
 		FEAA451923332DA600511480 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAA451823332DA600511480 /* ContentView.swift */; };
@@ -27,6 +30,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6A883BBF66A0AA92F63D95CD /* Pods-Lend-A-Book.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lend-A-Book.release.xcconfig"; path = "Target Support Files/Pods-Lend-A-Book/Pods-Lend-A-Book.release.xcconfig"; sourceTree = "<group>"; };
+		7240CBEA4535E18FDD2964B1 /* Pods-Lend-A-BookTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lend-A-BookTests.release.xcconfig"; path = "Target Support Files/Pods-Lend-A-BookTests/Pods-Lend-A-BookTests.release.xcconfig"; sourceTree = "<group>"; };
+		77A96AA3235C41E555F0A5F1 /* Pods-Lend-A-Book.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lend-A-Book.debug.xcconfig"; path = "Target Support Files/Pods-Lend-A-Book/Pods-Lend-A-Book.debug.xcconfig"; sourceTree = "<group>"; };
+		AD1BA72C5BFE398D0DB381BE /* Pods_Lend_A_BookTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lend_A_BookTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBEC6262A7FC08BA7840858B /* Pods-Lend-A-BookTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lend-A-BookTests.debug.xcconfig"; path = "Target Support Files/Pods-Lend-A-BookTests/Pods-Lend-A-BookTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F6F4F1198B73F1A62EE8A11D /* Pods_Lend_A_Book.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lend_A_Book.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE1FEB6E246E1A59007876AC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FEAA451123332DA600511480 /* Lend-A-Book.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lend-A-Book.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEAA451423332DA600511480 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FEAA451623332DA600511480 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDBC87A89CCB06916B4C39CF /* Pods_Lend_A_Book.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,18 +63,42 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B6AC098E28FD479999E1822 /* Pods_Lend_A_BookTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AA221BC2E305E14F5A23F5EE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				77A96AA3235C41E555F0A5F1 /* Pods-Lend-A-Book.debug.xcconfig */,
+				6A883BBF66A0AA92F63D95CD /* Pods-Lend-A-Book.release.xcconfig */,
+				DBEC6262A7FC08BA7840858B /* Pods-Lend-A-BookTests.debug.xcconfig */,
+				7240CBEA4535E18FDD2964B1 /* Pods-Lend-A-BookTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E859179091FB1297B44E640F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6F4F1198B73F1A62EE8A11D /* Pods_Lend_A_Book.framework */,
+				AD1BA72C5BFE398D0DB381BE /* Pods_Lend_A_BookTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FEAA450823332DA500511480 = {
 			isa = PBXGroup;
 			children = (
 				FEAA451323332DA600511480 /* Lend-A-Book */,
 				FEAA452A23332DA700511480 /* Lend-A-BookTests */,
 				FEAA451223332DA600511480 /* Products */,
+				AA221BC2E305E14F5A23F5EE /* Pods */,
+				E859179091FB1297B44E640F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,6 +120,7 @@
 				FEAA451A23332DA700511480 /* Assets.xcassets */,
 				FEAA451F23332DA700511480 /* LaunchScreen.storyboard */,
 				FEAA452223332DA700511480 /* Info.plist */,
+				FE1FEB6E246E1A59007876AC /* GoogleService-Info.plist */,
 				FEAA451C23332DA700511480 /* Preview Content */,
 			);
 			path = "Lend-A-Book";
@@ -114,9 +150,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FEAA453023332DA700511480 /* Build configuration list for PBXNativeTarget "Lend-A-Book" */;
 			buildPhases = (
+				A8B283605D649810C1AC2803 /* [CP] Check Pods Manifest.lock */,
 				FEAA450D23332DA600511480 /* Sources */,
 				FEAA450E23332DA600511480 /* Frameworks */,
 				FEAA450F23332DA600511480 /* Resources */,
+				646BFE963780A0A88DAD73E4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -131,6 +169,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FEAA453323332DA700511480 /* Build configuration list for PBXNativeTarget "Lend-A-BookTests" */;
 			buildPhases = (
+				26F8BB050A1801CE94866FD3 /* [CP] Check Pods Manifest.lock */,
 				FEAA452323332DA700511480 /* Sources */,
 				FEAA452423332DA700511480 /* Frameworks */,
 				FEAA452523332DA700511480 /* Resources */,
@@ -189,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FEAA452123332DA700511480 /* LaunchScreen.storyboard in Resources */,
+				FE1FEB6F246E1A59007876AC /* GoogleService-Info.plist in Resources */,
 				FEAA451E23332DA700511480 /* Preview Assets.xcassets in Resources */,
 				FEAA451B23332DA700511480 /* Assets.xcassets in Resources */,
 			);
@@ -202,6 +242,70 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		26F8BB050A1801CE94866FD3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lend-A-BookTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		646BFE963780A0A88DAD73E4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lend-A-Book/Pods-Lend-A-Book-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lend-A-Book/Pods-Lend-A-Book-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Lend-A-Book/Pods-Lend-A-Book-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8B283605D649810C1AC2803 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lend-A-Book-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FEAA450D23332DA600511480 /* Sources */ = {
@@ -360,6 +464,7 @@
 		};
 		FEAA453123332DA700511480 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77A96AA3235C41E555F0A5F1 /* Pods-Lend-A-Book.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -380,6 +485,7 @@
 		};
 		FEAA453223332DA700511480 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A883BBF66A0AA92F63D95CD /* Pods-Lend-A-Book.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -400,6 +506,7 @@
 		};
 		FEAA453423332DA700511480 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBEC6262A7FC08BA7840858B /* Pods-Lend-A-BookTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -422,6 +529,7 @@
 		};
 		FEAA453523332DA700511480 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7240CBEA4535E18FDD2964B1 /* Pods-Lend-A-BookTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
