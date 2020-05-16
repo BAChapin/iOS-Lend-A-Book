@@ -12,6 +12,19 @@
 		FE1FEB6F246E1A59007876AC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FE1FEB6E246E1A59007876AC /* GoogleService-Info.plist */; };
 		FE1FEB77246E2C09007876AC /* NavigationBarBackgroundColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1FEB76246E2C09007876AC /* NavigationBarBackgroundColor.swift */; };
 		FE1FEB79246E37DC007876AC /* NavigationBarTextModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1FEB78246E37DC007876AC /* NavigationBarTextModifier.swift */; };
+		FE1FEB7C246F8FE0007876AC /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1FEB7B246F8FE0007876AC /* MapView.swift */; };
+		FE1FEB7E246F9051007876AC /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1FEB7D246F9051007876AC /* Double.swift */; };
+		FE1FEB80246F907E007876AC /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1FEB7F246F907E007876AC /* View.swift */; };
+		FE1FEB82246F9117007876AC /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1FEB81246F9117007876AC /* Font.swift */; };
+		FE1FEB85246F91BF007876AC /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1FEB84246F91BF007876AC /* String.swift */; };
+		FE1FEB88246F925F007876AC /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1FEB87246F925F007876AC /* Environment.swift */; };
+		FE1FEB8A246F9292007876AC /* UIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1FEB89246F9292007876AC /* UIDevice.swift */; };
+		FE1FEB8C246F94DC007876AC /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1FEB8B246F94DC007876AC /* SearchBar.swift */; };
+		FE1FEB90246F9D2A007876AC /* ButtonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1FEB8F246F9D2A007876AC /* ButtonType.swift */; };
+		FE1FEB92246F9E2E007876AC /* FloatingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1FEB91246F9E2E007876AC /* FloatingButton.swift */; };
+		FE1FEB94246F9EBB007876AC /* FloatingNavButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1FEB93246F9EBB007876AC /* FloatingNavButton.swift */; };
+		FE1FEB96246FA007007876AC /* AppleLoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1FEB95246FA007007876AC /* AppleLoginButton.swift */; };
+		FE1FEB98246FA0B6007876AC /* FacebookLoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1FEB97246FA0B6007876AC /* FacebookLoginButton.swift */; };
 		FEAA451523332DA600511480 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAA451423332DA600511480 /* AppDelegate.swift */; };
 		FEAA451723332DA600511480 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAA451623332DA600511480 /* SceneDelegate.swift */; };
 		FEAA451923332DA600511480 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAA451823332DA600511480 /* ContentView.swift */; };
@@ -41,6 +54,19 @@
 		FE1FEB6E246E1A59007876AC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FE1FEB76246E2C09007876AC /* NavigationBarBackgroundColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarBackgroundColor.swift; sourceTree = "<group>"; };
 		FE1FEB78246E37DC007876AC /* NavigationBarTextModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarTextModifier.swift; sourceTree = "<group>"; };
+		FE1FEB7B246F8FE0007876AC /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		FE1FEB7D246F9051007876AC /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		FE1FEB7F246F907E007876AC /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		FE1FEB81246F9117007876AC /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		FE1FEB84246F91BF007876AC /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		FE1FEB87246F925F007876AC /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		FE1FEB89246F9292007876AC /* UIDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDevice.swift; sourceTree = "<group>"; };
+		FE1FEB8B246F94DC007876AC /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		FE1FEB8F246F9D2A007876AC /* ButtonType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonType.swift; sourceTree = "<group>"; };
+		FE1FEB91246F9E2E007876AC /* FloatingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingButton.swift; sourceTree = "<group>"; };
+		FE1FEB93246F9EBB007876AC /* FloatingNavButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingNavButton.swift; sourceTree = "<group>"; };
+		FE1FEB95246FA007007876AC /* AppleLoginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleLoginButton.swift; sourceTree = "<group>"; };
+		FE1FEB97246FA0B6007876AC /* FacebookLoginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookLoginButton.swift; sourceTree = "<group>"; };
 		FEAA451123332DA600511480 /* Lend-A-Book.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lend-A-Book.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEAA451423332DA600511480 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "Lend-A-Book/AppDelegate.swift"; sourceTree = SOURCE_ROOT; };
 		FEAA451623332DA600511480 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = "Lend-A-Book/SceneDelegate.swift"; sourceTree = SOURCE_ROOT; };
@@ -97,6 +123,10 @@
 		FE1FEB70246E2A6D007876AC /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				FE1FEB86246F9211007876AC /* Views */,
+				FE1FEB83246F916B007876AC /* Data Types */,
+				FE1FEB87246F925F007876AC /* Environment.swift */,
+				FE1FEB89246F9292007876AC /* UIDevice.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -111,6 +141,8 @@
 		FE1FEB72246E2A7E007876AC /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				FE1FEB8D246F9D0B007876AC /* Buttons */,
+				FE1FEB7A246F8FC8007876AC /* UIViewRepresentable */,
 				FE1FEB75246E2B7A007876AC /* Modifiers */,
 			);
 			path = Views;
@@ -131,6 +163,53 @@
 				FE1FEB78246E37DC007876AC /* NavigationBarTextModifier.swift */,
 			);
 			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		FE1FEB7A246F8FC8007876AC /* UIViewRepresentable */ = {
+			isa = PBXGroup;
+			children = (
+				FE1FEB7B246F8FE0007876AC /* MapView.swift */,
+				FE1FEB8B246F94DC007876AC /* SearchBar.swift */,
+				FE1FEB95246FA007007876AC /* AppleLoginButton.swift */,
+				FE1FEB97246FA0B6007876AC /* FacebookLoginButton.swift */,
+			);
+			path = UIViewRepresentable;
+			sourceTree = "<group>";
+		};
+		FE1FEB83246F916B007876AC /* Data Types */ = {
+			isa = PBXGroup;
+			children = (
+				FE1FEB7D246F9051007876AC /* Double.swift */,
+				FE1FEB81246F9117007876AC /* Font.swift */,
+				FE1FEB84246F91BF007876AC /* String.swift */,
+			);
+			path = "Data Types";
+			sourceTree = "<group>";
+		};
+		FE1FEB86246F9211007876AC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FE1FEB7F246F907E007876AC /* View.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FE1FEB8D246F9D0B007876AC /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				FE1FEB8E246F9D16007876AC /* Models */,
+				FE1FEB91246F9E2E007876AC /* FloatingButton.swift */,
+				FE1FEB93246F9EBB007876AC /* FloatingNavButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		FE1FEB8E246F9D16007876AC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FE1FEB8F246F9D2A007876AC /* ButtonType.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		FEAA450823332DA500511480 = {
@@ -357,11 +436,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE1FEB8C246F94DC007876AC /* SearchBar.swift in Sources */,
+				FE1FEB90246F9D2A007876AC /* ButtonType.swift in Sources */,
+				FE1FEB92246F9E2E007876AC /* FloatingButton.swift in Sources */,
+				FE1FEB80246F907E007876AC /* View.swift in Sources */,
+				FE1FEB96246FA007007876AC /* AppleLoginButton.swift in Sources */,
 				FEAA451523332DA600511480 /* AppDelegate.swift in Sources */,
+				FE1FEB85246F91BF007876AC /* String.swift in Sources */,
+				FE1FEB7C246F8FE0007876AC /* MapView.swift in Sources */,
+				FE1FEB94246F9EBB007876AC /* FloatingNavButton.swift in Sources */,
 				FEAA451723332DA600511480 /* SceneDelegate.swift in Sources */,
 				FEAA451923332DA600511480 /* ContentView.swift in Sources */,
+				FE1FEB82246F9117007876AC /* Font.swift in Sources */,
+				FE1FEB8A246F9292007876AC /* UIDevice.swift in Sources */,
+				FE1FEB88246F925F007876AC /* Environment.swift in Sources */,
 				FE1FEB77246E2C09007876AC /* NavigationBarBackgroundColor.swift in Sources */,
 				FE1FEB79246E37DC007876AC /* NavigationBarTextModifier.swift in Sources */,
+				FE1FEB7E246F9051007876AC /* Double.swift in Sources */,
+				FE1FEB98246FA0B6007876AC /* FacebookLoginButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
