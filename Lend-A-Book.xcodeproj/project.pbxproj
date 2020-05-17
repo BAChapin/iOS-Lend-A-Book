@@ -25,6 +25,12 @@
 		FE1FEB94246F9EBB007876AC /* FloatingNavButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1FEB93246F9EBB007876AC /* FloatingNavButton.swift */; };
 		FE1FEB96246FA007007876AC /* AppleLoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1FEB95246FA007007876AC /* AppleLoginButton.swift */; };
 		FE1FEB98246FA0B6007876AC /* FacebookLoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1FEB97246FA0B6007876AC /* FacebookLoginButton.swift */; };
+		FE72BC752470608E00DF564E /* LABTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE72BC742470608E00DF564E /* LABTextField.swift */; };
+		FE72BC77247061DE00DF564E /* AdaptsToKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE72BC76247061DE00DF564E /* AdaptsToKeyboard.swift */; };
+		FE72BC792470620E00DF564E /* KeyboardGuardian.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE72BC782470620E00DF564E /* KeyboardGuardian.swift */; };
+		FE72BC7B2470623600DF564E /* GeometryGetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE72BC7A2470623600DF564E /* GeometryGetter.swift */; };
+		FE72BC7E2470627A00DF564E /* BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE72BC7D2470627A00DF564E /* BannerView.swift */; };
+		FE72BC80247062A700DF564E /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE72BC7F247062A700DF564E /* TitleView.swift */; };
 		FEAA451523332DA600511480 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAA451423332DA600511480 /* AppDelegate.swift */; };
 		FEAA451723332DA600511480 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAA451623332DA600511480 /* SceneDelegate.swift */; };
 		FEAA451923332DA600511480 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAA451823332DA600511480 /* ContentView.swift */; };
@@ -67,6 +73,12 @@
 		FE1FEB93246F9EBB007876AC /* FloatingNavButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingNavButton.swift; sourceTree = "<group>"; };
 		FE1FEB95246FA007007876AC /* AppleLoginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleLoginButton.swift; sourceTree = "<group>"; };
 		FE1FEB97246FA0B6007876AC /* FacebookLoginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookLoginButton.swift; sourceTree = "<group>"; };
+		FE72BC742470608E00DF564E /* LABTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LABTextField.swift; sourceTree = "<group>"; };
+		FE72BC76247061DE00DF564E /* AdaptsToKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdaptsToKeyboard.swift; sourceTree = "<group>"; };
+		FE72BC782470620E00DF564E /* KeyboardGuardian.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardGuardian.swift; sourceTree = "<group>"; };
+		FE72BC7A2470623600DF564E /* GeometryGetter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryGetter.swift; sourceTree = "<group>"; };
+		FE72BC7D2470627A00DF564E /* BannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerView.swift; sourceTree = "<group>"; };
+		FE72BC7F247062A700DF564E /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
 		FEAA451123332DA600511480 /* Lend-A-Book.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lend-A-Book.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEAA451423332DA600511480 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "Lend-A-Book/AppDelegate.swift"; sourceTree = SOURCE_ROOT; };
 		FEAA451623332DA600511480 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = "Lend-A-Book/SceneDelegate.swift"; sourceTree = SOURCE_ROOT; };
@@ -141,9 +153,13 @@
 		FE1FEB72246E2A7E007876AC /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				FE72BC7C2470626200DF564E /* GADViews */,
 				FE1FEB8D246F9D0B007876AC /* Buttons */,
 				FE1FEB7A246F8FC8007876AC /* UIViewRepresentable */,
 				FE1FEB75246E2B7A007876AC /* Modifiers */,
+				FE72BC742470608E00DF564E /* LABTextField.swift */,
+				FE72BC7A2470623600DF564E /* GeometryGetter.swift */,
+				FE72BC7F247062A700DF564E /* TitleView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -161,6 +177,8 @@
 			children = (
 				FE1FEB76246E2C09007876AC /* NavigationBarBackgroundColor.swift */,
 				FE1FEB78246E37DC007876AC /* NavigationBarTextModifier.swift */,
+				FE72BC76247061DE00DF564E /* AdaptsToKeyboard.swift */,
+				FE72BC782470620E00DF564E /* KeyboardGuardian.swift */,
 			);
 			path = Modifiers;
 			sourceTree = "<group>";
@@ -210,6 +228,14 @@
 				FE1FEB8F246F9D2A007876AC /* ButtonType.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		FE72BC7C2470626200DF564E /* GADViews */ = {
+			isa = PBXGroup;
+			children = (
+				FE72BC7D2470627A00DF564E /* BannerView.swift */,
+			);
+			path = GADViews;
 			sourceTree = "<group>";
 		};
 		FEAA450823332DA500511480 = {
@@ -441,6 +467,7 @@
 				FE1FEB92246F9E2E007876AC /* FloatingButton.swift in Sources */,
 				FE1FEB80246F907E007876AC /* View.swift in Sources */,
 				FE1FEB96246FA007007876AC /* AppleLoginButton.swift in Sources */,
+				FE72BC752470608E00DF564E /* LABTextField.swift in Sources */,
 				FEAA451523332DA600511480 /* AppDelegate.swift in Sources */,
 				FE1FEB85246F91BF007876AC /* String.swift in Sources */,
 				FE1FEB7C246F8FE0007876AC /* MapView.swift in Sources */,
@@ -448,12 +475,17 @@
 				FEAA451723332DA600511480 /* SceneDelegate.swift in Sources */,
 				FEAA451923332DA600511480 /* ContentView.swift in Sources */,
 				FE1FEB82246F9117007876AC /* Font.swift in Sources */,
+				FE72BC7E2470627A00DF564E /* BannerView.swift in Sources */,
 				FE1FEB8A246F9292007876AC /* UIDevice.swift in Sources */,
+				FE72BC77247061DE00DF564E /* AdaptsToKeyboard.swift in Sources */,
 				FE1FEB88246F925F007876AC /* Environment.swift in Sources */,
 				FE1FEB77246E2C09007876AC /* NavigationBarBackgroundColor.swift in Sources */,
 				FE1FEB79246E37DC007876AC /* NavigationBarTextModifier.swift in Sources */,
+				FE72BC7B2470623600DF564E /* GeometryGetter.swift in Sources */,
 				FE1FEB7E246F9051007876AC /* Double.swift in Sources */,
+				FE72BC792470620E00DF564E /* KeyboardGuardian.swift in Sources */,
 				FE1FEB98246FA0B6007876AC /* FacebookLoginButton.swift in Sources */,
+				FE72BC80247062A700DF564E /* TitleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
