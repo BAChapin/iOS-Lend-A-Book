@@ -24,6 +24,7 @@ struct LABTextField: View {
 }
 
 struct LABSecureTextField: View {
+    
     var placeholder: String
     @Binding var text: String
     var keyboardType: UIKeyboardType
