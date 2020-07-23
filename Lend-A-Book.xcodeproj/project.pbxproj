@@ -52,8 +52,8 @@
 		FE41FFCE24C5ECE600DDFD2C /* Lend-A-Book */ = {
 			isa = PBXGroup;
 			children = (
+				FE41FFDE24C920C800DDFD2C /* Controllers */,
 				FE41FFCF24C5ECE600DDFD2C /* Lend_A_BookApp.swift */,
-				FE41FFD124C5ECE600DDFD2C /* ContentView.swift */,
 				FE41FFD324C5ECE700DDFD2C /* Assets.xcassets */,
 				FE41FFD824C5ECE700DDFD2C /* Info.plist */,
 				FE41FFD524C5ECE700DDFD2C /* Preview Content */,
@@ -67,6 +67,14 @@
 				FE41FFD624C5ECE700DDFD2C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FE41FFDE24C920C800DDFD2C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FE41FFD124C5ECE600DDFD2C /* ContentView.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,7 +285,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.BRP.Lend-A-Book";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BRP.LendABook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -299,7 +307,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.BRP.Lend-A-Book";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BRP.LendABook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
