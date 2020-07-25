@@ -6,12 +6,19 @@
 //
 
 import SwiftUI
+import Firebase
 
 @main
 struct Lend_A_BookApp: App {
+    
+    init() {
+        FirebaseApp.configure()
+        GADMobileAds.sharedInstance().start(completionHandler: nil)
+    }
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().environmentObject(AppEnvironment())
         }
     }
 }

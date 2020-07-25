@@ -3,23 +3,45 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		772F8740F995D7ED0D6CD76C /* Pods_Lend_A_Book.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6DD4D610F505F0C9E4D9043 /* Pods_Lend_A_Book.framework */; };
 		FE41FFD024C5ECE600DDFD2C /* Lend_A_BookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE41FFCF24C5ECE600DDFD2C /* Lend_A_BookApp.swift */; };
 		FE41FFD224C5ECE600DDFD2C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE41FFD124C5ECE600DDFD2C /* ContentView.swift */; };
 		FE41FFD424C5ECE700DDFD2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE41FFD324C5ECE700DDFD2C /* Assets.xcassets */; };
 		FE41FFD724C5ECE700DDFD2C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE41FFD624C5ECE700DDFD2C /* Preview Assets.xcassets */; };
+		FEE881C424C9479400E1D6EE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FEE881C324C9479400E1D6EE /* GoogleService-Info.plist */; };
+		FEE881C724C949F600E1D6EE /* BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE881C624C949F600E1D6EE /* BannerView.swift */; };
+		FEE881CA24C94C4300E1D6EE /* ButtonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE881C924C94C4300E1D6EE /* ButtonType.swift */; };
+		FEE881CC24C94CD100E1D6EE /* FloatingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE881CB24C94CD100E1D6EE /* FloatingButton.swift */; };
+		FEE881CE24C94D4800E1D6EE /* FloatingNavButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE881CD24C94D4800E1D6EE /* FloatingNavButton.swift */; };
+		FEE881D024C9DCA500E1D6EE /* NavigationBarBackgroundColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE881CF24C9DCA500E1D6EE /* NavigationBarBackgroundColor.swift */; };
+		FEE881D324C9DDA600E1D6EE /* NavigationBarTextModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE881D224C9DDA600E1D6EE /* NavigationBarTextModifier.swift */; };
+		FEE881D524CA26DE00E1D6EE /* Placemarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE881D424CA26DE00E1D6EE /* Placemarker.swift */; };
+		FEE881D824CBD66400E1D6EE /* AppEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE881D724CBD66400E1D6EE /* AppEnvironment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A9451D5D5EFBB37A8086BC7C /* Pods-Lend-A-Book.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lend-A-Book.debug.xcconfig"; path = "Target Support Files/Pods-Lend-A-Book/Pods-Lend-A-Book.debug.xcconfig"; sourceTree = "<group>"; };
+		B6DD4D610F505F0C9E4D9043 /* Pods_Lend_A_Book.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lend_A_Book.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB586E805CC64210A8025803 /* Pods-Lend-A-Book.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lend-A-Book.release.xcconfig"; path = "Target Support Files/Pods-Lend-A-Book/Pods-Lend-A-Book.release.xcconfig"; sourceTree = "<group>"; };
 		FE41FFCC24C5ECE600DDFD2C /* Lend-A-Book.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lend-A-Book.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE41FFCF24C5ECE600DDFD2C /* Lend_A_BookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lend_A_BookApp.swift; sourceTree = "<group>"; };
 		FE41FFD124C5ECE600DDFD2C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FE41FFD324C5ECE700DDFD2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE41FFD624C5ECE700DDFD2C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FE41FFD824C5ECE700DDFD2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEE881C324C9479400E1D6EE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FEE881C624C949F600E1D6EE /* BannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerView.swift; sourceTree = "<group>"; };
+		FEE881C924C94C4300E1D6EE /* ButtonType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonType.swift; sourceTree = "<group>"; };
+		FEE881CB24C94CD100E1D6EE /* FloatingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingButton.swift; sourceTree = "<group>"; };
+		FEE881CD24C94D4800E1D6EE /* FloatingNavButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingNavButton.swift; sourceTree = "<group>"; };
+		FEE881CF24C9DCA500E1D6EE /* NavigationBarBackgroundColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarBackgroundColor.swift; sourceTree = "<group>"; };
+		FEE881D224C9DDA600E1D6EE /* NavigationBarTextModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarTextModifier.swift; sourceTree = "<group>"; };
+		FEE881D424CA26DE00E1D6EE /* Placemarker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Placemarker.swift; sourceTree = "<group>"; };
+		FEE881D724CBD66400E1D6EE /* AppEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnvironment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,17 +49,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				772F8740F995D7ED0D6CD76C /* Pods_Lend_A_Book.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C92DA41E90F58E79397F881 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A9451D5D5EFBB37A8086BC7C /* Pods-Lend-A-Book.debug.xcconfig */,
+				EB586E805CC64210A8025803 /* Pods-Lend-A-Book.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A37A004D3EEEA6074D89CAF0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6DD4D610F505F0C9E4D9043 /* Pods_Lend_A_Book.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FE41FFC324C5ECE600DDFD2C = {
 			isa = PBXGroup;
 			children = (
 				FE41FFCE24C5ECE600DDFD2C /* Lend-A-Book */,
 				FE41FFCD24C5ECE600DDFD2C /* Products */,
+				0C92DA41E90F58E79397F881 /* Pods */,
+				A37A004D3EEEA6074D89CAF0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,10 +94,14 @@
 		FE41FFCE24C5ECE600DDFD2C /* Lend-A-Book */ = {
 			isa = PBXGroup;
 			children = (
+				FEE881C224C93F9500E1D6EE /* Extensions */,
+				FEE881C124C93F8900E1D6EE /* Model */,
+				FEE881C024C93F7D00E1D6EE /* Views */,
 				FE41FFDE24C920C800DDFD2C /* Controllers */,
 				FE41FFCF24C5ECE600DDFD2C /* Lend_A_BookApp.swift */,
 				FE41FFD324C5ECE700DDFD2C /* Assets.xcassets */,
 				FE41FFD824C5ECE700DDFD2C /* Info.plist */,
+				FEE881C324C9479400E1D6EE /* GoogleService-Info.plist */,
 				FE41FFD524C5ECE700DDFD2C /* Preview Content */,
 			);
 			path = "Lend-A-Book";
@@ -77,6 +123,67 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
+		FEE881C024C93F7D00E1D6EE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FEE881D124C9DCC200E1D6EE /* Modifiers */,
+				FEE881C824C94C3300E1D6EE /* Buttons */,
+				FEE881C524C949E000E1D6EE /* GADViews */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FEE881C124C93F8900E1D6EE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FEE881D624CBD61B00E1D6EE /* Managers */,
+				FEE881D424CA26DE00E1D6EE /* Placemarker.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FEE881C224C93F9500E1D6EE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FEE881C524C949E000E1D6EE /* GADViews */ = {
+			isa = PBXGroup;
+			children = (
+				FEE881C624C949F600E1D6EE /* BannerView.swift */,
+			);
+			path = GADViews;
+			sourceTree = "<group>";
+		};
+		FEE881C824C94C3300E1D6EE /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				FEE881C924C94C4300E1D6EE /* ButtonType.swift */,
+				FEE881CB24C94CD100E1D6EE /* FloatingButton.swift */,
+				FEE881CD24C94D4800E1D6EE /* FloatingNavButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		FEE881D124C9DCC200E1D6EE /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				FEE881CF24C9DCA500E1D6EE /* NavigationBarBackgroundColor.swift */,
+				FEE881D224C9DDA600E1D6EE /* NavigationBarTextModifier.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		FEE881D624CBD61B00E1D6EE /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				FEE881D724CBD66400E1D6EE /* AppEnvironment.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -84,9 +191,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FE41FFDB24C5ECE700DDFD2C /* Build configuration list for PBXNativeTarget "Lend-A-Book" */;
 			buildPhases = (
+				48658EEC3B34994FB45F516E /* [CP] Check Pods Manifest.lock */,
 				FE41FFC824C5ECE600DDFD2C /* Sources */,
 				FE41FFC924C5ECE600DDFD2C /* Frameworks */,
 				FE41FFCA24C5ECE600DDFD2C /* Resources */,
+				CDD1FBC86CE2FAD0AEE7B792 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -136,10 +245,53 @@
 			files = (
 				FE41FFD724C5ECE700DDFD2C /* Preview Assets.xcassets in Resources */,
 				FE41FFD424C5ECE700DDFD2C /* Assets.xcassets in Resources */,
+				FEE881C424C9479400E1D6EE /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		48658EEC3B34994FB45F516E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lend-A-Book-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDD1FBC86CE2FAD0AEE7B792 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lend-A-Book/Pods-Lend-A-Book-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lend-A-Book/Pods-Lend-A-Book-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Lend-A-Book/Pods-Lend-A-Book-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FE41FFC824C5ECE600DDFD2C /* Sources */ = {
@@ -147,7 +299,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE41FFD224C5ECE600DDFD2C /* ContentView.swift in Sources */,
+				FEE881D024C9DCA500E1D6EE /* NavigationBarBackgroundColor.swift in Sources */,
+				FEE881CA24C94C4300E1D6EE /* ButtonType.swift in Sources */,
+				FEE881D824CBD66400E1D6EE /* AppEnvironment.swift in Sources */,
+				FEE881D324C9DDA600E1D6EE /* NavigationBarTextModifier.swift in Sources */,
+				FEE881CC24C94CD100E1D6EE /* FloatingButton.swift in Sources */,
+				FEE881CE24C94D4800E1D6EE /* FloatingNavButton.swift in Sources */,
 				FE41FFD024C5ECE600DDFD2C /* Lend_A_BookApp.swift in Sources */,
+				FEE881C724C949F600E1D6EE /* BannerView.swift in Sources */,
+				FEE881D524CA26DE00E1D6EE /* Placemarker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +432,7 @@
 		};
 		FE41FFDC24C5ECE700DDFD2C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9451D5D5EFBB37A8086BC7C /* Pods-Lend-A-Book.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -294,6 +455,7 @@
 		};
 		FE41FFDD24C5ECE700DDFD2C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB586E805CC64210A8025803 /* Pods-Lend-A-Book.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
